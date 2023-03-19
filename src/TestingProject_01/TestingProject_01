@@ -1,10 +1,11 @@
- Techno Study Testing Project 1 (Selenium Project)
+Testing Project 1 (Selenium Project)
 
 Url: https://itera-qa.azurewebsites.net/
 
 Locatorlar: Css Selector ve xPath olacak
 
 Not: Projeyi baştan kendiniz oluşturun. Kopyalama yapmayın.
+
 
 
 Test Case 1: Kayıt oluşturma
