@@ -17,15 +17,11 @@ public class BaseDriver {
         closeRemainingPreviouses();
 
         Logger logger = Logger.getLogger("");
-        logger.setLevel(Level.SEVERE); //
+        logger.setLevel(Level.SEVERE); updated
 
         System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--remote-allow-origins=*");
-        driver = new ChromeDriver(options);
-
-       // driver = new ChromeDriver();
+        driver = new ChromeDriver();
 
         driver.manage().window().maximize(); // Ekranı max yapıyor.
 
