@@ -17,7 +17,7 @@ public class BaseDriver {
         closeRemainingPreviouses();
 
         Logger logger = Logger.getLogger("");
-        logger.setLevel(Level.SEVERE); updated
+        logger.setLevel(Level.SEVERE);
 
         System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 
